@@ -1,0 +1,32 @@
+.paginate {
+  max-width: 1440px;
+  padding: 20px;
+}
+.paginate__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #333;
+  padding-bottom: 20px;
+}
+.paginate__pages {
+  text-align: center;
+}
+.paginate__span {
+  font-size: 18px;
+  color: #666;
+  margin-right: 10px;
+}
+.paginate__arrow {
+  font-size: 18px;
+  color: #666;
+  margin: 0 20px;
+}
+.paginate__span:hover {
+  cursor: pointer;
+}
+.paginate__span_curr {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
